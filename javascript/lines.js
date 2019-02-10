@@ -8,6 +8,7 @@ export function drawLines(amount) {
   ctx.beginPath()
   ctx.moveTo(getPath(), getPath());
   ctx.lineTo(getPath(), posY);
-
+  ctx.strokeStyle = '#' + getColour();
+  ctx.stroke();
 
 }
